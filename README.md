@@ -3,7 +3,7 @@ Denna applikationens syfte är att ge en daglig användare av bibliotekssystemet
 
 
 ## Hur man kör
-Projektet finns tillgängligt på min Github via denna länk: https://github.com/callebulow13/ReactSOS100 . Där finns även mitt API UserService som är skrivet i .NET, både det och denna reactapplikation som är skapat i vs code behöver klonas. Det behöver vara igång samtidigt på port 5196 för att kunna hämta användare som visas i det snurrande hjulet. I terminalen behöver det köras 'npm install' ,för att ladda ner alla paket som exempelvis det snurrande hjulet, och sedan 'npm run dev' för att köra projektet. 
+Projektet finns tillgängligt på min Github via denna länk: https://github.com/callebulow13/ReactSOS100 . Där finns även mitt API UserService som är skrivet i .NET, både det och denna reactapplikation som är skapat i vs code behöver klonas. Klona projektet och öppna frontend-mappen i VSCode och backend-mappen i Rider. Det behöver vara igång samtidigt på port 5196 för att kunna hämta användare som visas i det snurrande hjulet. I terminalen i VSCode behöver det köras 'npm install'. Om det inte fungerar kan det behöva köras 'npm install --legacy-peer-deps' då hjulet använder React 18. För att ladda ner alla paket som exempelvis det snurrande hjulet, och sedan 'npm run dev' för att köra projektet. 
 
 ## Ai-användning
 Generativ Ai har använts för att ta fram ett hjul som snurrar, den har även hjälpt till med vissa variabler och felsökning i början av skapandet. Jag har sedan modifierat designen med hjälp av klassisk css, men fått lite hjälp att modifiera hjulet direkt i jsx. Det resterande har skapats med hjälp av guider i kursmaterialet. 
